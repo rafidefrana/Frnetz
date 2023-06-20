@@ -1,0 +1,12 @@
+div::-webkit-scrollbar{
+    display: none;
+}
+    body::-webkit-scrollbar{
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #526D82;
+}

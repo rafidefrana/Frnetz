@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+h1 {
+    font-size: clamp(40px,8vw,105px);
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+div::-webkit-scrollbar{
+    display: none;
+}
+    body::-webkit-scrollbar{
+    display: none;
+}
+body {
+    background: #526D82;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+.icons {
+    display: flex;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.icons a {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display:block;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    background-color: white;
+    line-height: 60px;
+    margin:0 7px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0 .5);
+    transition:0.5s ease ;
+    -webkit-transition:0.5s ease ;
+    -moz-transition:0.5s ease ;
+    -ms-transition:0.5s ease ;
+    -o-transition:0.5s ease ;
+}
+.icons a:hover {
+    color: white;
+    transform: translate(0, -30px);
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.7);
+}
+.icons a:nth-child(1):hover {
+    background-color: #3b5998;
+}
+.icons a:nth-child(2):hover {
+    background-color: #ff0000;
+}
+.icons a:nth-child(3):hover {
+    background-color: #c32aa3;
+}
+.icons a:nth-child(4):hover{
+    background-color: #3b5998;
+}
+.icons a:nth-child(5):hover{
+    background-color: #3bf104;
+}

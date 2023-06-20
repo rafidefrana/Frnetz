@@ -1,0 +1,18 @@
+body {
+    min-height: 1100px;
+}
+.container{
+    width: min(100%, 950px);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: clamp(40px,8vw,105px);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #526D82;
+}

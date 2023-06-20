@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+.image fluid{
+width: 100%;
+height: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #526D82;
+}
+
+
+
+img-fluid{
+    width: 50%;
+    height: 50%;
+}
+
+body {
+    min-height: 1000px;
+}
